@@ -93,7 +93,7 @@ CMD ["python", "app.py"]
 ### Step 2: Kubernetes Configuration Files
 
 #### File: k8s/namespace.yaml
-```bash
+```yaml
 apiVersion: v1
 kind: Namespace
 metadata:
@@ -103,7 +103,7 @@ metadata:
 ```
 
 #### File: k8s/deployment.yaml
-```bash
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
